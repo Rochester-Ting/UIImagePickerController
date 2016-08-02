@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CABA86051D506ABA00EA04F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CABA86041D506ABA00EA04F5 /* main.m */; };
+		CABA86081D506ABA00EA04F5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CABA86071D506ABA00EA04F5 /* AppDelegate.m */; };
+		CABA860B1D506ABA00EA04F5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CABA860A1D506ABA00EA04F5 /* ViewController.m */; };
+		CABA860E1D506ABA00EA04F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CABA860C1D506ABA00EA04F5 /* Main.storyboard */; };
+		CABA86101D506ABA00EA04F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CABA860F1D506ABA00EA04F5 /* Assets.xcassets */; };
+		CABA86131D506ABA00EA04F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CABA86111D506ABA00EA04F5 /* LaunchScreen.storyboard */; };
+		CABA861E1D506ABA00EA04F5 /* UIImagePickerControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CABA861D1D506ABA00EA04F5 /* UIImagePickerControllerTests.m */; };
+		CABA86291D506ABA00EA04F5 /* UIImagePickerControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CABA86281D506ABA00EA04F5 /* UIImagePickerControllerUITests.m */; };
+		CABA86441D506AE700EA04F5 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CABA86381D506AE600EA04F5 /* AFHTTPSessionManager.m */; };
+		CABA86451D506AE700EA04F5 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CABA863B1D506AE600EA04F5 /* AFNetworkReachabilityManager.m */; };
+		CABA86461D506AE700EA04F5 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = CABA863D1D506AE600EA04F5 /* AFSecurityPolicy.m */; };
+		CABA86471D506AE700EA04F5 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = CABA863F1D506AE600EA04F5 /* AFURLRequestSerialization.m */; };
+		CABA86481D506AE700EA04F5 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = CABA86411D506AE600EA04F5 /* AFURLResponseSerialization.m */; };
+		CABA86491D506AE700EA04F5 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CABA86431D506AE700EA04F5 /* AFURLSessionManager.m */; };
+		CABA864B1D506BC600EA04F5 /* fire.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CABA864A1D506BC600EA04F5 /* fire.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CABA861A1D506ABA00EA04F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CABA85F81D506ABA00EA04F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CABA85FF1D506ABA00EA04F5;
+			remoteInfo = UIImagePickerController;
+		};
+		CABA86251D506ABA00EA04F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CABA85F81D506ABA00EA04F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CABA85FF1D506ABA00EA04F5;
+			remoteInfo = UIImagePickerController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CABA86001D506ABA00EA04F5 /* UIImagePickerController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIImagePickerController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CABA86041D506ABA00EA04F5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CABA86061D506ABA00EA04F5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CABA86071D506ABA00EA04F5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CABA86091D506ABA00EA04F5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CABA860A1D506ABA00EA04F5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CABA860D1D506ABA00EA04F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CABA860F1D506ABA00EA04F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CABA86121D506ABA00EA04F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CABA86141D506ABA00EA04F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CABA86191D506ABA00EA04F5 /* UIImagePickerControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIImagePickerControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CABA861D1D506ABA00EA04F5 /* UIImagePickerControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIImagePickerControllerTests.m; sourceTree = "<group>"; };
+		CABA861F1D506ABA00EA04F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CABA86241D506ABA00EA04F5 /* UIImagePickerControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIImagePickerControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CABA86281D506ABA00EA04F5 /* UIImagePickerControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIImagePickerControllerUITests.m; sourceTree = "<group>"; };
+		CABA862A1D506ABA00EA04F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CABA86371D506AE600EA04F5 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		CABA86381D506AE600EA04F5 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		CABA86391D506AE600EA04F5 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		CABA863A1D506AE600EA04F5 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		CABA863B1D506AE600EA04F5 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		CABA863C1D506AE600EA04F5 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		CABA863D1D506AE600EA04F5 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		CABA863E1D506AE600EA04F5 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		CABA863F1D506AE600EA04F5 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		CABA86401D506AE600EA04F5 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		CABA86411D506AE600EA04F5 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		CABA86421D506AE700EA04F5 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		CABA86431D506AE700EA04F5 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		CABA864A1D506BC600EA04F5 /* fire.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fire.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CABA85FD1D506ABA00EA04F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CABA86161D506ABA00EA04F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CABA86211D506ABA00EA04F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CABA85F71D506ABA00EA04F5 = {
+			isa = PBXGroup;
+			children = (
+				CABA86021D506ABA00EA04F5 /* UIImagePickerController */,
+				CABA861C1D506ABA00EA04F5 /* UIImagePickerControllerTests */,
+				CABA86271D506ABA00EA04F5 /* UIImagePickerControllerUITests */,
+				CABA86011D506ABA00EA04F5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CABA86011D506ABA00EA04F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CABA86001D506ABA00EA04F5 /* UIImagePickerController.app */,
+				CABA86191D506ABA00EA04F5 /* UIImagePickerControllerTests.xctest */,
+				CABA86241D506ABA00EA04F5 /* UIImagePickerControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CABA86021D506ABA00EA04F5 /* UIImagePickerController */ = {
+			isa = PBXGroup;
+			children = (
+				CABA864A1D506BC600EA04F5 /* fire.jpg */,
+				CABA86361D506AE600EA04F5 /* AFNetworking */,
+				CABA86061D506ABA00EA04F5 /* AppDelegate.h */,
+				CABA86071D506ABA00EA04F5 /* AppDelegate.m */,
+				CABA86091D506ABA00EA04F5 /* ViewController.h */,
+				CABA860A1D506ABA00EA04F5 /* ViewController.m */,
+				CABA860C1D506ABA00EA04F5 /* Main.storyboard */,
+				CABA860F1D506ABA00EA04F5 /* Assets.xcassets */,
+				CABA86111D506ABA00EA04F5 /* LaunchScreen.storyboard */,
+				CABA86141D506ABA00EA04F5 /* Info.plist */,
+				CABA86031D506ABA00EA04F5 /* Supporting Files */,
+			);
+			path = UIImagePickerController;
+			sourceTree = "<group>";
+		};
+		CABA86031D506ABA00EA04F5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CABA86041D506ABA00EA04F5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CABA861C1D506ABA00EA04F5 /* UIImagePickerControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				CABA861D1D506ABA00EA04F5 /* UIImagePickerControllerTests.m */,
+				CABA861F1D506ABA00EA04F5 /* Info.plist */,
+			);
+			path = UIImagePickerControllerTests;
+			sourceTree = "<group>";
+		};
+		CABA86271D506ABA00EA04F5 /* UIImagePickerControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CABA86281D506ABA00EA04F5 /* UIImagePickerControllerUITests.m */,
+				CABA862A1D506ABA00EA04F5 /* Info.plist */,
+			);
+			path = UIImagePickerControllerUITests;
+			sourceTree = "<group>";
+		};
+		CABA86361D506AE600EA04F5 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				CABA86371D506AE600EA04F5 /* AFHTTPSessionManager.h */,
+				CABA86381D506AE600EA04F5 /* AFHTTPSessionManager.m */,
+				CABA86391D506AE600EA04F5 /* AFNetworking.h */,
+				CABA863A1D506AE600EA04F5 /* AFNetworkReachabilityManager.h */,
+				CABA863B1D506AE600EA04F5 /* AFNetworkReachabilityManager.m */,
+				CABA863C1D506AE600EA04F5 /* AFSecurityPolicy.h */,
+				CABA863D1D506AE600EA04F5 /* AFSecurityPolicy.m */,
+				CABA863E1D506AE600EA04F5 /* AFURLRequestSerialization.h */,
+				CABA863F1D506AE600EA04F5 /* AFURLRequestSerialization.m */,
+				CABA86401D506AE600EA04F5 /* AFURLResponseSerialization.h */,
+				CABA86411D506AE600EA04F5 /* AFURLResponseSerialization.m */,
+				CABA86421D506AE700EA04F5 /* AFURLSessionManager.h */,
+				CABA86431D506AE700EA04F5 /* AFURLSessionManager.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CABA85FF1D506ABA00EA04F5 /* UIImagePickerController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CABA862D1D506ABA00EA04F5 /* Build configuration list for PBXNativeTarget "UIImagePickerController" */;
+			buildPhases = (
+				CABA85FC1D506ABA00EA04F5 /* Sources */,
+				CABA85FD1D506ABA00EA04F5 /* Frameworks */,
+				CABA85FE1D506ABA00EA04F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIImagePickerController;
+			productName = UIImagePickerController;
+			productReference = CABA86001D506ABA00EA04F5 /* UIImagePickerController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CABA86181D506ABA00EA04F5 /* UIImagePickerControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CABA86301D506ABA00EA04F5 /* Build configuration list for PBXNativeTarget "UIImagePickerControllerTests" */;
+			buildPhases = (
+				CABA86151D506ABA00EA04F5 /* Sources */,
+				CABA86161D506ABA00EA04F5 /* Frameworks */,
+				CABA86171D506ABA00EA04F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CABA861B1D506ABA00EA04F5 /* PBXTargetDependency */,
+			);
+			name = UIImagePickerControllerTests;
+			productName = UIImagePickerControllerTests;
+			productReference = CABA86191D506ABA00EA04F5 /* UIImagePickerControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CABA86231D506ABA00EA04F5 /* UIImagePickerControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CABA86331D506ABA00EA04F5 /* Build configuration list for PBXNativeTarget "UIImagePickerControllerUITests" */;
+			buildPhases = (
+				CABA86201D506ABA00EA04F5 /* Sources */,
+				CABA86211D506ABA00EA04F5 /* Frameworks */,
+				CABA86221D506ABA00EA04F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CABA86261D506ABA00EA04F5 /* PBXTargetDependency */,
+			);
+			name = UIImagePickerControllerUITests;
+			productName = UIImagePickerControllerUITests;
+			productReference = CABA86241D506ABA00EA04F5 /* UIImagePickerControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CABA85F81D506ABA00EA04F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Rochester;
+				TargetAttributes = {
+					CABA85FF1D506ABA00EA04F5 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					CABA86181D506ABA00EA04F5 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = CABA85FF1D506ABA00EA04F5;
+					};
+					CABA86231D506ABA00EA04F5 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = CABA85FF1D506ABA00EA04F5;
+					};
+				};
+			};
+			buildConfigurationList = CABA85FB1D506ABA00EA04F5 /* Build configuration list for PBXProject "UIImagePickerController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CABA85F71D506ABA00EA04F5;
+			productRefGroup = CABA86011D506ABA00EA04F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CABA85FF1D506ABA00EA04F5 /* UIImagePickerController */,
+				CABA86181D506ABA00EA04F5 /* UIImagePickerControllerTests */,
+				CABA86231D506ABA00EA04F5 /* UIImagePickerControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CABA85FE1D506ABA00EA04F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CABA86131D506ABA00EA04F5 /* LaunchScreen.storyboard in Resources */,
+				CABA864B1D506BC600EA04F5 /* fire.jpg in Resources */,
+				CABA86101D506ABA00EA04F5 /* Assets.xcassets in Resources */,
+				CABA860E1D506ABA00EA04F5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CABA86171D506ABA00EA04F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CABA86221D506ABA00EA04F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CABA85FC1D506ABA00EA04F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CABA86491D506AE700EA04F5 /* AFURLSessionManager.m in Sources */,
+				CABA860B1D506ABA00EA04F5 /* ViewController.m in Sources */,
+				CABA86081D506ABA00EA04F5 /* AppDelegate.m in Sources */,
+				CABA86451D506AE700EA04F5 /* AFNetworkReachabilityManager.m in Sources */,
+				CABA86051D506ABA00EA04F5 /* main.m in Sources */,
+				CABA86461D506AE700EA04F5 /* AFSecurityPolicy.m in Sources */,
+				CABA86471D506AE700EA04F5 /* AFURLRequestSerialization.m in Sources */,
+				CABA86481D506AE700EA04F5 /* AFURLResponseSerialization.m in Sources */,
+				CABA86441D506AE700EA04F5 /* AFHTTPSessionManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CABA86151D506ABA00EA04F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CABA861E1D506ABA00EA04F5 /* UIImagePickerControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CABA86201D506ABA00EA04F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CABA86291D506ABA00EA04F5 /* UIImagePickerControllerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CABA861B1D506ABA00EA04F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CABA85FF1D506ABA00EA04F5 /* UIImagePickerController */;
+			targetProxy = CABA861A1D506ABA00EA04F5 /* PBXContainerItemProxy */;
+		};
+		CABA86261D506ABA00EA04F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CABA85FF1D506ABA00EA04F5 /* UIImagePickerController */;
+			targetProxy = CABA86251D506ABA00EA04F5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CABA860C1D506ABA00EA04F5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CABA860D1D506ABA00EA04F5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CABA86111D506ABA00EA04F5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CABA86121D506ABA00EA04F5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CABA862B1D506ABA00EA04F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CABA862C1D506ABA00EA04F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CABA862E1D506ABA00EA04F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				INFOPLIST_FILE = UIImagePickerController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-rui.UIImagePickerController";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CABA862F1D506ABA00EA04F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				INFOPLIST_FILE = UIImagePickerController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-rui.UIImagePickerController";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CABA86311D506ABA00EA04F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = UIImagePickerControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-rui.UIImagePickerControllerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIImagePickerController.app/UIImagePickerController";
+			};
+			name = Debug;
+		};
+		CABA86321D506ABA00EA04F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = UIImagePickerControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-rui.UIImagePickerControllerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIImagePickerController.app/UIImagePickerController";
+			};
+			name = Release;
+		};
+		CABA86341D506ABA00EA04F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = UIImagePickerControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-rui.UIImagePickerControllerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = UIImagePickerController;
+			};
+			name = Debug;
+		};
+		CABA86351D506ABA00EA04F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = UIImagePickerControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-rui.UIImagePickerControllerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = UIImagePickerController;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CABA85FB1D506ABA00EA04F5 /* Build configuration list for PBXProject "UIImagePickerController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CABA862B1D506ABA00EA04F5 /* Debug */,
+				CABA862C1D506ABA00EA04F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CABA862D1D506ABA00EA04F5 /* Build configuration list for PBXNativeTarget "UIImagePickerController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CABA862E1D506ABA00EA04F5 /* Debug */,
+				CABA862F1D506ABA00EA04F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CABA86301D506ABA00EA04F5 /* Build configuration list for PBXNativeTarget "UIImagePickerControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CABA86311D506ABA00EA04F5 /* Debug */,
+				CABA86321D506ABA00EA04F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CABA86331D506ABA00EA04F5 /* Build configuration list for PBXNativeTarget "UIImagePickerControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CABA86341D506ABA00EA04F5 /* Debug */,
+				CABA86351D506ABA00EA04F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CABA85F81D506ABA00EA04F5 /* Project object */;
+}
